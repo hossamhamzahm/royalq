@@ -1311,14 +1311,6 @@ p.form-message.success, p.form-message.error {
 ===========================*/
 .footer-widget {
   background-color: #152136; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .footer-widget {
-      padding-top: 100px;
-      padding-bottom: 100px; } }
-  @media (max-width: 767px) {
-    .footer-widget {
-      padding-top: 80px;
-      padding-bottom: 80px; } }
 
 .footer-content p {
   color: #fff;
