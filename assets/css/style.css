@@ -1268,7 +1268,9 @@ p.form-message.success, p.form-message.error {
     color: #f00; }
 
 .single-form {
-  margin-top: 30px; }
+  margin-top: 15px; 
+  padding: 0;
+}
   .single-form input, .single-form textarea {
     width: 100%;
     height: 55px;
