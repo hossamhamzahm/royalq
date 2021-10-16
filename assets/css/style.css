@@ -578,7 +578,6 @@ p {
 .header-content {
   /* height: 730px; */
   /* width: 100%; */
-  margin-top: 40px;
   position: relative;
   /* overflow: hidden; */
   background-color: #fbfbfb; }
@@ -790,11 +789,11 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area {
     padding-top: 90px;
-    padding-bottom: 100px; } }
+} }
 @media (max-width: 767px) {
   .about-area {
     padding-top: 70px;
-    padding-bottom: 80px; } }
+} }
 
 .about-content .about-title {
   font-size: 18px;
@@ -874,11 +873,11 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-area {
     padding-top: 90px;
-    padding-bottom: 100px; } }
+} }
 @media (max-width: 767px) {
   .services-area {
     padding-top: 70px;
-    padding-bottom: 80px; } }
+} }
 
 .single-service {
   background-color: #fff;
@@ -922,14 +921,7 @@ p {
 .call-to-action {
   position: relative;
   z-index: 9; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .call-to-action {
-      padding-top: 90px;
-      padding-bottom: 100px; } }
-  @media (max-width: 767px) {
-    .call-to-action {
-      padding-top: 70px;
-      padding-bottom: 80px; } }
+
   .call-to-action::before {
     position: absolute;
     content: '';
@@ -980,14 +972,6 @@ p {
 /*===========================
         5.WORK css 
 ===========================*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .work-area {
-    padding-top: 90px;
-    padding-bottom: 100px; } }
-@media (max-width: 767px) {
-  .work-area {
-    padding-top: 70px;
-    padding-bottom: 80px; } }
 
 .single-work {
   position: relative; }
@@ -1166,14 +1150,7 @@ p {
 /*===========================
        7.BLOG css 
 ===========================*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .blog-area {
-    padding-top: 90px;
-    padding-bottom: 100px; } }
-@media (max-width: 767px) {
-  .blog-area {
-    padding-top: 70px;
-    padding-bottom: 80px; } }
+
 
 .single-blog {
   -webkit-box-shadow: 0px 0px 15px 0px rgba(152, 152, 152, 0.25);
