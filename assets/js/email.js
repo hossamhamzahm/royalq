@@ -20,7 +20,7 @@ function getFormElements(){
 function sendMail(){
     let body = getFormElements();
 
-    fetch('http://localhost:3000/sendMail', {
+    fetch('https://js-utils.herokuapp.com/sendMail', {
         method: 'POST',
         headers:{
             'Content-Type': 'application/json',
